@@ -7,4 +7,7 @@ but they should all relate directly to the responsibility of the class.
 All the methods and properties should all work towards the same goal.
  When a class serves multiple purposes or responsibility then it should be made into a new class.
  
- 
+ #Benefits:
+
+Coupling reduced.
+Code easier to understand and maintain.
