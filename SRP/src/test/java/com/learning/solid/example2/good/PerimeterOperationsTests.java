@@ -1,4 +1,4 @@
-package com.learning.solid.good;
+package com.learning.solid.example2.good;
 
 import org.junit.Assert;
 import org.junit.Test;
