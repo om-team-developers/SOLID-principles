@@ -1,5 +1,6 @@
 package com.learning.solid.wrong;
 
+import com.learning.solid.example2.wrong.Rectangle;
 import org.junit.Assert;
 import org.junit.Test;
 
