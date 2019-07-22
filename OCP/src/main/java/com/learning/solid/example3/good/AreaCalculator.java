@@ -7,6 +7,10 @@ import java.util.List;
  */
 public class AreaCalculator {
 
+    /**
+     * @param shapes list of any type of shapes
+     * @return total area of shapes
+     */
     public static double getArea(List<Shape> shapes)
     {
         double area = 0;

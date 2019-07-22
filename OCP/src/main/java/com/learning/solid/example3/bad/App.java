@@ -7,6 +7,10 @@ import java.util.List;
  * Created by dimanandhar on 7/22/19.
  */
 public class App {
+    /**
+     * Main executor
+     * @param args commandline arguments
+     */
     public static void main(String[] args){
         Circle circle = new Circle(5);
         Rectangle rectangle = new Rectangle(10,10);

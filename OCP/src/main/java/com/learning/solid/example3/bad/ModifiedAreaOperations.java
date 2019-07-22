@@ -7,6 +7,11 @@ import java.util.List;
  */
 public class ModifiedAreaOperations {
 
+    /**
+     *
+     * @param shapes list of shapes
+     * @return total area of shapes
+     */
     public static double getArea(List<Object> shapes) {
         double area = 0;
         System.out.println("Calculating Area>>>");

@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class App {
+    /**
+     * Main executor
+     * @param args commandline arguments
+     */
     public static void main(String[] args){
         Shape circle = new Circle(5);
         Shape rectangle = new Rectangle(10,10);
