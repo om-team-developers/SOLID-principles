@@ -1,13 +1,14 @@
-package com.learning.solid.good;
+package com.learning.solid.example2.good;
 
 public class Rectangle {
     private double height;
     private double width;
 
-    public Rectangle(double width, double height){
+    public Rectangle(double width, double height) {
         setWidth(width);
         setHeight(height);
     }
+
     public double getHeight() {
         return height;
     }

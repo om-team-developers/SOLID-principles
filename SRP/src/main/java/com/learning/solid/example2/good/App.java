@@ -1,4 +1,4 @@
-package com.learning.solid.good;
+package com.learning.solid.example2.good;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ public class App {
         List<Rectangle> listRectangles = new ArrayList<Rectangle>();
         listRectangles.add(new Rectangle(10, 20));
         listRectangles.add(new Rectangle(15, 20));
-        listRectangles.add(new Rectangle( 20, 30));
+        listRectangles.add(new Rectangle(20, 30));
 
         AreaOperations areaOperations = new AreaOperations();
 
@@ -16,7 +16,7 @@ public class App {
         double resp = areaOperations.sumAreas(listRectangles);
         PerimeterOperations perimeterOperations = new PerimeterOperations();
         double perimeterResponse = perimeterOperations.sumPerimeters(listRectangles);
-        System.out.println("::: sum of areas :::"+resp);
-        System.out.println("::: sum of perimeter :::"+perimeterResponse);
+        System.out.println("::: sum of areas :::" + resp);
+        System.out.println("::: sum of perimeter :::" + perimeterResponse);
     }
 }
